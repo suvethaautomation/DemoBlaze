@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<parameter name="browser" value=""></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="demoBlaze.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
