@@ -19,7 +19,7 @@ public class BaseClass {
 
 	
 public WebDriver driver;
-public  WebDriver sdriver;
+public static WebDriver sdriver;
 public PropUtil plib=new PropUtil();
 
 @Parameters("browser")
