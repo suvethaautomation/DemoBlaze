@@ -25,7 +25,7 @@ public class LoginTest extends BaseClass{
 	@Test
 public void signUp() throws EncryptedDocumentException, IOException, InterruptedException
 {
-		//Read data from excel file
+	//Read data from excel file
 	ExcelUtil elib=new ExcelUtil();
 	String USERNAME = elib.toReadfromExcel("Sheet1", 1, 0);
 	String PASSWORD = elib.toReadfromExcel("Sheet1", 1, 1);
